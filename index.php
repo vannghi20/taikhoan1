@@ -1,10 +1,10 @@
-<!-- <?php 
+<?php 
 session_start();
     if (!empty($_POST['submit'])) {
         $_COOKIE('taikhoan',$_POST['username']);
         $_SESSION['matkhau'] = $_POST['password'];
     }
-?> -->
+?>
 <!DOCTYPE html> 
 <html> 
 <head> 
